@@ -19,11 +19,24 @@
             width: 30%;
         }
         main{
+            width: calc(100% - 30%);
+        }
+        li{
+            list-style: none;
+            margin-left: 0;
+            background-color: bisque;
+            border: solid 1px red;
             width: 70%;
+        }
+        ul{
+            padding-left: 0;
         }
         *{
             border: solid 1px red;
             box-sizing: border-box;
+        }
+        main{
+            border: solid 1px blue;
         }
     </style>
     <script src="./jquery-3.7.0.min.js"></script>
@@ -36,8 +49,8 @@
             });
             $("#lie").click(function(){
                 console.log("eスポーツコースがクリックされました")
-                $("#sece").show()
                 $("#secm").hide()
+                $("#sece").show()
             });
         });
     </script>
