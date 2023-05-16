@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <!-- 
+    ・この書き方は、自分自身がjqueryのパッケージを保存しない方法（とてもよくつかわれる方法）
+    ・CDN（コンテンツ　デリバリ　ネットワーク）がファイルを配信してくれる
+　　　CDN:Akamai等の企業
+　　　Googleからファイルをダウンロードする=Akamai等のCDN業者の持っているファイルをダウンロードしている
+ -->
+ <!-- jqueryのプログラムは、scriptタグの間に書く⇒jqueryはJavaScriptの一部 -->
+ <script>
+    //「何もしない」jqueryのプログラム
+    $();
+
+    //何かするプログラム ほぼ何もしないが、これからすることを埋め込むことができる
+    $(function(){});
+ </script>
+</head>
+
+<body>
+    <ul>
+        <li>media course</li>
+        <li>esports course</li>
+    </ul>
+    <div>
+        <h1>media course</h1>
+
+        <div>media courseはデザインの学習を行うコースです</div>
+    </div>
+    <div>
+        <h1>esports course</h1>
+        <div>esports courseはmedia courseに加えてesportsの授業も行います。</div>
+    </div>
+    <!-- alt+zで画面の右端で折り返し -->
+</body>
+
+</html>
