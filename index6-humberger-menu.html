@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- ここにjQueryライブラリを組み込みます -->
+
+	<!-- ここから下は、ｊQueryのプログラミング -->
+
+	<!-- ここから下は、CSS。完成したら別のファイルに移動します -->
+	<style>
+
+	</style>
+	<link rel="stylesheet" href="./ueda.css">
+</head>
+
+<body>
+	<!-- ハンバーガーメニューを構築する -->
+	<header>
+		<!-- ハンバーガーメニュー用のフラグ -->
+		<input type="checkbox" name="" id="menu-btn-check">
+		<!-- ここがメニューアイコン -->
+		<label for="menu-btn-check" class="menu-btn">
+			<!-- ここが線になる -->
+			<span></span>
+		</label>
+	</header>
+	<!-- ナビゲーション。ハンバーガーメニューから呼び出されるメニュー。 -->
+	<nav>
+		<ul>
+			<li>media communication course</li>
+			<li>e sports course</li>
+		</ul>
+	</nav>
+	<main>
+		<!-- 学科ごとにコンテンツを用意する -->
+		<!-- 各セクションには、idを振って、プログラミングする -->
+		<section>
+			<h1>メディアコミュニケーションコースの時間割</h1>
+			<img src="./images/schedule-mc.png" alt="">
+		</section>
+		
+		<section>
+			<h1>eスポーツコースの時間割</h1>
+			<img src="./images/schedule-es.png" alt="">
+		</section>
+	</main>
+</body>
+
+</html>
